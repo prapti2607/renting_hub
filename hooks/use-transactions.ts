@@ -2,7 +2,7 @@
 
 import { useLocalStorage } from "./use-local-storage"
 import type { Transaction } from "@/types"
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "@/components/use-toast"
 
 export function useTransactions() {
   const [transactions, setTransactions] = useLocalStorage<Transaction[]>("transactions", [])

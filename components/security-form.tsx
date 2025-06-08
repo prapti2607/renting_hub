@@ -8,7 +8,7 @@ import type { User } from "@/types"
 import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "@/components/use-toast"
 import { Loader2 } from "lucide-react"
 
 const securityFormSchema = z
